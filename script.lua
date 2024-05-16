@@ -59,7 +59,15 @@ local players = game.Players
         hum:EquipTool(tool)
         repeat hrp.CFrame = tc.HumanoidRootPart.CFrame wait(0.1) until tc.Humanoid.Sit == true
         hrp.CFrame = CFrame.new(0,-40,0)
-        wait(1.5)
+        wait(0.1)
+        hrp.CFrame = CFrame.new(0,-40,0)
+        wait(0.1)
+        hrp.CFrame = CFrame.new(0,-40,0)
+        wait(0.1)
+        hrp.CFrame = CFrame.new(0,-40,0)
+        wait(0.1)
+        hrp.CFrame = CFrame.new(0,-40,0)
+        wait(1.1)
         hum:UnequipTools()
         hrp.CFrame = cpos
     elseif args[1] == prefix.."bring" then
@@ -69,7 +77,25 @@ local players = game.Players
         hum:EquipTool(tool)
         repeat hrp.CFrame = tc.HumanoidRootPart.CFrame wait(0.1) until tc.Humanoid.Sit == true
         hrp.CFrame = cpos
-        wait(3)
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(0.1)
+        hrp.CFrame = cpos
+        wait(1)
         hum:UnequipTools()
     elseif args[1] == prefix.."view" then
         target = getPlr(args[2])
